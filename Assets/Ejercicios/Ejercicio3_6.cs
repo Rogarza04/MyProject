@@ -11,6 +11,7 @@ public class Ejercicio3_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         float velmps1 = coche1 * 1000 / 3600;
         Debug.Log("la velocidad del coche 1 en m/s es:" +  velmps1);
 
