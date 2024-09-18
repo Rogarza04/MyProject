@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio3_4 : MonoBehaviour
 {
-    public int Exp;
+    [SerializeField] int Exp;
 
     // Start is called before the first frame update
     void Start()

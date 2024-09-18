@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Ejercicio3_7 : MonoBehaviour
 {
-    public float baseTri;
-    public float altTri;
+    [SerializeField] float baseTri;
+    [SerializeField] float altTri;
 
 
     // Start is called before the first frame update

@@ -150,6 +150,11 @@ GameObject:
   - component: {fileID: 519420045}
   - component: {fileID: 519420047}
   - component: {fileID: 519420046}
+  - component: {fileID: 519420052}
+  - component: {fileID: 519420051}
+  - component: {fileID: 519420050}
+  - component: {fileID: 519420053}
+  - component: {fileID: 519420054}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -445,6 +450,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dad68c77b3010742afb3cc1afec372a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519420050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c17bc70dcf2d641acafbd29b1a1789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidad: 100
+  moneda: euro
+--- !u!114 &519420051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3eef4a80aa5b7d498168a86daeb91ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nom: 
+  apel1: 
+  apel2: 
+  ed: 0
+--- !u!114 &519420052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92ae2b8547514548ae372874e73c3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radioCriculo: 4.5
+  baseTri: 6.2
+  altTri: 8.1
+  ladoCuadrado: 5
+--- !u!114 &519420053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75f5fd3babf3b44b4ba17f05a4fdfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadKmH: 1
+--- !u!114 &519420054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242c16993c472034986f5acdf81171b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radioCriculo: 4.5
+  moneda: euro
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

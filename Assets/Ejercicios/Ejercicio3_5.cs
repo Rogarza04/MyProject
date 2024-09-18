@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio3_5 : MonoBehaviour
 {
-    public int RadioCirculo;
+    [SerializeField] int RadioCirculo;
 
     // Start is called before the first frame update
     void Start()
