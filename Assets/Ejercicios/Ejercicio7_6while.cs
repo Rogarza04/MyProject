@@ -2,22 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_5 : MonoBehaviour
+public class Ejercicio7_6while : MonoBehaviour
 {
-    [SerializeField] int num1;
+    [SerializeField] int num;
     // Start is called before the first frame update
     void Start()
     {
-        while (1 <= num1)
+        int i = num;
+        while (i >= -num)
         {
-            num1++;
-            Debug.Log(num1);
-        }
-
-        for (int num = 1; num <= num1;)
-        {
-            num1++;
-            Debug.Log(num1);
+            Debug.Log(i);
+            i--;
         }
     }
 
