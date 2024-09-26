@@ -8,17 +8,17 @@ public class Ejercicio7_13 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int resultado = EsNumPrimo(numero);
+        int resultado = EsNumPrimo(num);
         if (resultado == 1)
         {
-            Debug.Log("El número " + numero + " es primo.");
+            Debug.Log("El número " + num + " es primo.");
         }
         else
         {
-            Debug.Log("El número " + numero + " no es primo.");
+            Debug.Log("El número " + num + " no es primo.");
         }
     }
-    int EsNumeroPrimo(int num)
+    int EsNumPrimo(int num)
     {
         if (num <= 1)
         {
