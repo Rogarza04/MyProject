@@ -5,18 +5,18 @@ using UnityEngine;
 public class CreadorPersonajes : MonoBehaviour
 {
    
-    [SerializeField] Personaje Sigma;
-    [SerializeField] Personaje Skibidi;
+    //[SerializeField] Personaje Sigma;
+    //[SerializeField] Personaje Skibidi;
 
 
-    void Start()
-    {
-        Sigma.Vida = 100;
+    //void Start()
+    //{
+    //    Sigma.Vida = 100;
 
-        Skibidi.Vida = 50;
+    //    Skibidi.Vida = 50;
 
-        Sigma.Mover(3, 0 , -1);
+    //    Sigma.Mover(3, 0 , -1);
 
-    }
+    //}
 
 }
